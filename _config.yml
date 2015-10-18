@@ -68,6 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
+  type:  git
   repository: git@github.com:zi1jing/zi1jing.github.io.git
   branch: gh-pages
