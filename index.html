@@ -61,6 +61,68 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Hexo-installation-for-github" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/10/19/Hexo-installation-for-github/" class="article-date">
+  <time datetime="2015-10-19T13:04:57.000Z" itemprop="datePublished">2015-10-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/10/19/Hexo-installation-for-github/">Hexo installation for github</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Hexo_搭建github静态网站">Hexo 搭建github静态网站</h1><ol>
+<li>安装<ol>
+<li>安装git  </li>
+<li>安装node.js</li>
+</ol>
+</li>
+<li>配置  <blockquote>
+<ol>
+<li>在github上建立repository。<br>说明：仓库名必须为“ username.github.io ”  </li>
+<li>配置ssh-key<br>生成密钥：<br>$ ssh-keygen -t rsa -C “haiyan.xu.vip@gmail.com”<br>按3个回车，密码为空。<br>最后得到了两个文件：id_rsa和id_rsa.pub（公钥）<br>用username登录github网站，找到settings, 并添加密钥  </li>
+</ol>
+</blockquote>
+</li>
+<li>安装hexo  <ol>
+<li>打开git bash命令行，定位到博客文件夹下<blockquote>
+<p>cd &lt;博客目录&gt;<br>npm install -g hexo</p>
+</blockquote>
+</li>
+<li>打开服务<blockquote>
+<p>hexo server<br>[info] Hexo is running at <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a>. Press Ctrl+C to stop.<br> 表明Hexo Server已经启动了，在浏览器中打开 <a href="http://localhost:4000/，这时可以看到Hexo已为你生成了一篇blog。" target="_blank" rel="external">http://localhost:4000/，这时可以看到Hexo已为你生成了一篇blog。</a></p>
+</blockquote>
+</li>
+<li></li>
+</ol>
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/10/19/Hexo-installation-for-github/" data-id="cifxzkbtw0000pkhh9flva0rk" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/10/19/hello-world/" class="article-date">
@@ -96,7 +158,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/10/19/hello-world/" data-id="cifxybdg900003shhhr5holfd" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/10/19/hello-world/" data-id="cifxzkbuy0001pkhhnmyu5a9x" class="article-share-link">Share</a>
       
       
     </footer>
@@ -121,7 +183,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/10/">十月 2015</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/10/">十月 2015</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -131,6 +193,10 @@
     <h3 class="widget-title">Recents</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2015/10/19/Hexo-installation-for-github/">Hexo installation for github</a>
+          </li>
         
           <li>
             <a href="/2015/10/19/hello-world/">Hello World</a>
