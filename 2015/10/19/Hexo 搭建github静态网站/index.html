@@ -5,13 +5,13 @@
   
   <title>Hexo 搭建github静态网站 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Hexo 搭建github静态网站
-安装
+  <meta name="description" content="安装
+
 安装git  
 安装node.js
 
 
-配置  
+配置
 
 在github上建立repository。
 说明：仓库名必须为“ username.github.io ”  
@@ -19,18 +19,18 @@
 配置ssh-key
 生成密钥：  
 1$ ssh-keygen -t rsa -C “haiyan.xu.vip@gmail.com”
-按3个回车，密码为空。最后得到了两个文件：id_rsa和">
+按3个回车，密码为空。最后得到了两个文件：id_rsa和id_rsa.pub（公钥）用user">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo 搭建github静态网站">
 <meta property="og:url" content="http://yoursite.com/2015/10/19/Hexo 搭建github静态网站/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Hexo 搭建github静态网站
-安装
+<meta property="og:description" content="安装
+
 安装git  
 安装node.js
 
 
-配置  
+配置
 
 在github上建立repository。
 说明：仓库名必须为“ username.github.io ”  
@@ -38,17 +38,17 @@
 配置ssh-key
 生成密钥：  
 1$ ssh-keygen -t rsa -C “haiyan.xu.vip@gmail.com”
-按3个回车，密码为空。最后得到了两个文件：id_rsa和">
-<meta property="og:updated_time" content="2015-10-19T14:26:15.702Z">
+按3个回车，密码为空。最后得到了两个文件：id_rsa和id_rsa.pub（公钥）用user">
+<meta property="og:updated_time" content="2015-10-19T14:33:10.110Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo 搭建github静态网站">
-<meta name="twitter:description" content="Hexo 搭建github静态网站
-安装
+<meta name="twitter:description" content="安装
+
 安装git  
 安装node.js
 
 
-配置  
+配置
 
 在github上建立repository。
 说明：仓库名必须为“ username.github.io ”  
@@ -56,7 +56,7 @@
 配置ssh-key
 生成密钥：  
 1$ ssh-keygen -t rsa -C “haiyan.xu.vip@gmail.com”
-按3个回车，密码为空。最后得到了两个文件：id_rsa和">
+按3个回车，密码为空。最后得到了两个文件：id_rsa和id_rsa.pub（公钥）用user">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -124,13 +124,14 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Hexo_搭建github静态网站">Hexo 搭建github静态网站</h1><ul>
-<li>安装<ol>
+        <ul>
+<li><p>安装</p>
+<ol>
 <li>安装git  </li>
 <li>安装node.js</li>
 </ol>
 </li>
-<li><p>配置  </p>
+<li><p>配置</p>
 <ol>
 <li><p>在github上建立repository。</p>
 <p>说明：仓库名必须为“ username.github.io ”  </p>
@@ -138,23 +139,28 @@
 <li><p>配置ssh-key</p>
 <p>生成密钥：  </p>
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C “haiyan<span class="class">.xu</span><span class="class">.vip</span>@gmail.com”</span><br></pre></td></tr></table></figure>
-<p>按3个回车，密码为空。<br>最后得到了两个文件：id_rsa和id_rsa.pub（公钥）<br>用username登录github网站，找到settings, 并添加密钥  </p>
+<p>按3个回车，密码为空。<br>最后得到了两个文件：id_rsa和id_rsa.pub（公钥）<br>用username登录github网站，找到settings, 并添加密钥</p>
 </li>
 </ol>
 </li>
-<li><p>安装hexo  </p>
+<li><p>安装hexo</p>
 <ol>
 <li><p>打开git bash命令行，定位到博客文件夹下</p>
  <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd &#60;&#21338;&#23458;&#30446;&#24405;&#62;&#9;&#9; &#10;npm install -g hexo&#10;npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>打开服务</p>
-<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"> hexo server</span><br><span class="line">&gt; [info] Hexo is running <span class="keyword">at</span> <span class="keyword">http</span>://localhost:<span class="number">4000</span>/. Press Ctrl+C <span class="built_in">to</span> <span class="built_in">stop</span>.</span><br></pre></td></tr></table></figure>
-<p> 表明Hexo Server已经启动了，在浏览器中打开 <a href="http://localhost:4000/，这时可以看到Hexo已为你生成了一篇blog。" target="_blank" rel="external">http://localhost:4000/，这时可以看到Hexo已为你生成了一篇blog。</a></p>
-</li>
-<li>配置_config.yml文件<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">  <span class="attribute">repository</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:username/username.github.io.git</span><br><span class="line"> <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure>
-</li>
 </ol>
 </li>
+</ul>
+<pre><code>2. 打开服务
+
+<span class="comment"><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"> hexo server</span><br><span class="line">&gt; [info] Hexo is running <span class="keyword">at</span> <span class="keyword">http</span>://localhost:<span class="number">4000</span>/. Press Ctrl+C <span class="built_in">to</span> <span class="built_in">stop</span>.</span><br></pre></td></tr></table></figure></span>
+
+
+    表明Hexo Server已经启动了，在浏览器中打开 http://localhost:4000/，这时可以看到Hexo已为你生成了一篇blog。
+
+3. 配置_config.yml文件
+</code></pre><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">  <span class="attribute">repository</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:username/username.github.io.git</span><br><span class="line"> <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure>
+<ul>
 <li><p>写博客</p>
 <ol>
 <li><p>生成新博客</p>
@@ -164,6 +170,7 @@
 </li>
 </ul>
 <pre><code>根据上一步中给出的路径，用记事本等编辑软件打开并编辑博客
+
 2. 本地调试
 
 <span class="comment"><figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate <span class="list">(<span class="keyword">or</span> <span class="string">"hexo g"</span>)</span></span><br><span class="line">hexo server <span class="list">(<span class="keyword">or</span> <span class="string">"hexo s"</span>)</span></span><br></pre></td></tr></table></figure></span>
@@ -177,12 +184,17 @@
 3. 部署网站
 
 <span class="comment"><figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generage <span class="list">(<span class="keyword">or</span> <span class="string">"hexo g"</span>)</span></span><br><span class="line">hexo deploy <span class="list">(<span class="keyword">or</span> <span class="string">"hexo d"</span>)</span></span><br></pre></td></tr></table></figure></span>
+
+
+或者 简化为：
+
+<span class="comment"><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> deploy -g</span><br></pre></td></tr></table></figure></span>
 </code></pre><p><a href="http://www.cnblogs.com/zhcncn/p/4097881.html" target="_blank" rel="external">参考网站</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/10/19/Hexo 搭建github静态网站/" data-id="cify1cejd00006khhg3mof0aa" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/10/19/Hexo 搭建github静态网站/" data-id="cify1l82b0000zohh5or5qigc" class="article-share-link">Share</a>
       
       
     </footer>
